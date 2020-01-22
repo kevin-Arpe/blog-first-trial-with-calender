@@ -1,0 +1,146 @@
+body {
+    font: 14px/1.8 Arial, Melvetica, sans-serif;
+}
+.frame {
+    width: 1000px;
+    margin: 0 auto;
+    border: 1px solid #aaa;
+}
+.header {
+    padding: 40px 10px;
+    text-align: center;
+    background: #eee;
+    margin-bottom: 20px;
+}
+.logo {
+    font-size: 2em;
+    font-weight: bold;
+    background: #5457de;
+    color: #fff;
+    display: inline-block;
+    padding: 0 10px;
+}
+.container {
+    overflow: hidden;
+    height: 500px;
+}
+.nav {
+    float: left;
+    width: 150px;
+    height: 140px;
+    color: #fff;
+    margin-right: 50px;
+}
+.nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 10px 0;
+    height: 480px;
+    background: #555;
+}
+.nav-item {
+    margin: 4px 0;
+}
+.nav-link {
+    display: block;
+    text-decoration: none;
+    padding: 4px 10px;
+    color: #fff;
+}
+.content {
+    float: left;
+    width: 600px;
+}
+.subtitle {
+    font-size: 2em;
+}
+.planBulk {
+    line-height: 200%;
+    height: 300px;
+}
+.planAdd {
+    width: 500px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.footer {
+    text-align: center;
+    border-top: 1px solid #aaa;
+    margin: 20px 20px 0;
+    font-size: 12px;
+}
+.linkTab {
+    float: right;
+    width: 150px;
+    height: 480px;
+    padding: 10px 0;
+    background: #555;
+}
+.linkList {
+    list-style: circle;
+    margin: 0 10px;
+    color: #fff;
+}
+a {
+    color: white;
+}
+.listDone {
+    text-decoration: line-through;
+}
+.calender {
+    width: 100%;
+    height: auto;
+    background: #fff;
+    box-sizing: border-box;
+}
+.calender .calenderTop {
+    width: 100%;
+    height: auto;
+    padding: 20px 0px;
+    background: #aaa;
+    color: white;
+}
+.calender .calenderTop h2, h3{
+    padding: 0px 10px;
+    text-shadow: 5px 5px 0 rgba(0, 0, 0, .2);
+}
+.calender .date {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));
+    grid-gap: 10px;
+    box-sizing: border-box;
+}
+.calender .date div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    color: #262626;
+}
+.calender .date div.day {
+    font-weight: 700;
+}
+.calender .date div.day:first-child {
+    color: #ff685d;
+}
+.calender .date div.number:nth-child(7n+1) {
+    color: #ff685d;
+    font-weight: 700;
+}
+.calender .date div.number.active {
+    background: #009688;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+}
+.calender .date div.number:hover {
+    background: #009688;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+}
+.login { 
+    margin: 20px;
+    padding: 20px;
+}

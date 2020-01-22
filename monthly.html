@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="Kr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="blogStyleSheet.css" rel="stylesheet">
+    <title>Kevin's blog</title>
+</head>
+<body>
+    <div class="frame">
+        <div class="header">
+            <div class="logo">Personal Planner</div>
+        </div>
+        <!-- //header -->
+        <div class="container">
+            <div class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="blogProject.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="calender.html" class="nav-link">Calender</a></li>
+                    <li class="nav-item"><a href="monthly.html" class="nav-link">Monthly Plan</a></li>
+                    <li class="nav-item"><a href="weekly.html" class="nav-link">Weekly Plan</a></li>
+                    <li class="nav-item"><a href="daily.html" class="nav-link">Daily Plan</a></li>
+                </ul>
+            </div>
+            <!-- nav -->
+            <div class="content">
+                <h2 class="subtitle">Monthly Plan</h2>
+                <fieldset class="planBulk">
+                    <legend>월간 계획</legend>
+                    <input type="checkbox" name="todo" onclick="doneList()">영어공부<br>
+                    <input type="checkbox" name="todo">코딩공부<br>
+                    <input type="checkbox" name="todo">인적성공부
+                </fieldset>
+                <fieldset >
+                    <legend>계획 추가</legend>
+                    <input type="text" class="planAdd" placeholder="추가할 일정을 입력하세요.">
+                    <button type="submit">추가</button>
+                </fieldset>
+            </div>
+            <div class="linkTab">
+                <div class="linkList">
+                    <h3>검색 링크</h3>
+                    <ul>
+                        <li>
+                            <a target="_blank" href="https://www.google.com/webhp?hl=ko&sa=X&ved=0ahUKEwjglZ3AjOXmAhXxFqYKHdIPAZAQPAgH">구글</a><br>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://www.naver.com/">네이버</a><br>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://opentutorials.org/course/1">생활코딩</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://edition.cnn.com/">CNN</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- content -->
+        <div class="footer">
+            <p class="copyright">
+                &copy;copyright
+            </p>
+        </div>
+        <!-- footer -->
+    </div>
+    <!-- frame -->
+</body>
+</html>
